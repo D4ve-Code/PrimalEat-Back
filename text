@@ -1,0 +1,31 @@
+CREER UN BACK DE ZERO
+
+> Dans GitBash
+> Créer le dossier du projet
+> Rentrer dedans
+
+> npm init -y
+
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+> Créer un fichier: index.js
+>                   .gitignore
+>                       /node_modules   Obligatoires
+>                       .env
+>                   .env
+>                       DB_PORT=        Valeurs réelles: 
+>                       DB_HOST=        pas de virgules,
+>                       DB_USER=        pas de guillemets
+>                       DB_PASSWORD=
+>                       DB_NAME=
+>                   .env.sample
+
+> Créer un dossier:     config
+> Dans ce dossier :     bd.js           Contient les données de connexions à la DB
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+> npm i express
+> npm i dotenv
+> npm i mysql2                          A minima
+> npm i morgan
+> npm i cors
+> npm i nodemon
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
